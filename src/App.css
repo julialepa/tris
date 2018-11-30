@@ -1,0 +1,23 @@
+.container{
+  text-align: -webkit-center;
+}
+.board{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: slategrey;
+}
+.board > div {
+border: solid black 1px;
+margin: 1px;
+background-color: rgba(255, 255, 255, 0.8);
+font-size: 30px;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
