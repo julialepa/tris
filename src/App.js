@@ -54,7 +54,7 @@ class App extends Component {
       }*/
       this.setState({
         showResetButton:true,
-        winner: 'X'
+        winner: 'xX'
       })
     }
 
